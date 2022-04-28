@@ -2,7 +2,7 @@
 const express = require('express');
 
 const app = express();
-const port = 5001;
+const port = 3001;
 
 // serve static files
 app.use(express.static('client'));
