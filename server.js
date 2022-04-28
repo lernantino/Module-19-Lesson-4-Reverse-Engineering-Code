@@ -2,10 +2,10 @@
 const express = require('express');
 
 const app = express();
-const port = 3001;
+const port = 5001;
 
 // serve static files
-app.use(express.static('src'));
+app.use(express.static('client'));
 
 // serve index.html and index.js
 app.get('/', (req, res) => {
